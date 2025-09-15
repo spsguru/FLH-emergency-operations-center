@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
   "manifestVersion": "1.15",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "id": "bef61400-db9b-41d4-a617-403deb7bbe77",
   "packageName": "com.microsoft.teams.extension",
   "developer": {
-    "name": "Teams Customer Advocacy Group",
+    "name": "FDOH Web Team",
     "websiteUrl": "https://aka.ms/teamsapptemplates",
     "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
     "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement"
@@ -15,7 +15,7 @@
     "outline": "resources/outline.png"
   },
   "name": {
-    "short": "TEOC",
+    "short": "FLHEOC",
     "full": "Florida Health Emergency Operations Center"
   },
   "description": {
@@ -27,7 +27,7 @@
   "composeExtensions": [],
   "configurableTabs": [
     {
-      "configurationUrl": "https://<<appDomain>>/index.html#/config",
+      "configurationUrl": "https://flheoc.azurewebsites.net/index.html#/config",
       "canUpdateConfiguration": true,
       "scopes": [
         "team",
@@ -38,9 +38,9 @@
   "staticTabs": [
     {
       "entityId": "index",
-      "name": "Teams EOC",
-      "contentUrl": "https://<<appDomain>>/index.html#/tab",
-      "websiteUrl": "https://<<websiteUrl>>",
+      "name": "FLH EOC",
+      "contentUrl": "https://flheoc.azurewebsites.net/index.html#/tab",
+      "websiteUrl": "https://floridahealth.sharepoint.com/sites/FLH-EOC",
       "scopes": [
         "personal"
       ]
@@ -51,10 +51,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "flheoc.azurewebsites.net"
   ],
   "webApplicationInfo": {
-    "id": "<<clientId>>",
-    "resource": "api://<<appDomain>>/<<clientId>>"
+    "id": "7fbaa914-2048-478b-b421-aec10cbced6a",
+    "resource": "api://flheoc.azurewebsites.net/<<clientId>>"
   }
 }
