@@ -8,7 +8,7 @@
     "roleDefaultList": "TEOC-RoleDefaultValues",
     "incidentTypeDefaultRolesList": "TEOC-IncidentTypeDefaultRoles",
     "userRolesList": "TEOC-UserRoles",
-    "appTitle": "Microsoft Teams Emergency Operations Center",
+    "appTitle": "Florida Health Emergency Operations Center",
     "defaulTasksList": "TEOC-Tasks",
     "lists": [
         {

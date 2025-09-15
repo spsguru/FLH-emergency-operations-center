@@ -1,4 +1,4 @@
-This page contains the release information for Microsoft Teams Emergency Operations Center,
+This page contains the release information for Florida Health Emergency Operations Center,
 
 ## Version history
 | Version | Release Date |

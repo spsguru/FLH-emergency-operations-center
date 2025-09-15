@@ -18,7 +18,7 @@
 
 # Prerequisites
 
-To begin deployment for Microsoft Teams Emergency Operations Center (TEOC) application, you will need: 
+To begin deployment for Florida Health Emergency Operations Center (TEOC) application, you will need: 
 * An Azure subscription where you can create the following kinds of resources:
     * App Service
     * App Service Plan

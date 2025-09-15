@@ -1,10 +1,10 @@
 ## Overview
 
-1. The current version of the Microsoft Teams Emergency Operations Center operates as an app in Microsoft Teams that is installed locally in your tenant by your tenant administrator or any user who has the capability to side load the application.
+1. The current version of the Florida Health Emergency Operations Center operates as an app in Microsoft Teams that is installed locally in your tenant by your tenant administrator or any user who has the capability to side load the application.
 1. Once installed, it can be accessed as a personal app from the "Apps" section in Teams.
 1. The app will enable users to create new incidents, modify existing incidents and view the incidents on a dashboard.
 1. The app will create a team for each incident with default channel so that users track the activities for each incident in specific structured Teams channels.
-1. There are 5 major components in the Microsoft Teams Emergency Operations Center App -
+1. There are 5 major components in the Florida Health Emergency Operations Center App -
     1. Incident Details Dashboard
     1. Create New Incident Form
     1. Edit Incident Form
