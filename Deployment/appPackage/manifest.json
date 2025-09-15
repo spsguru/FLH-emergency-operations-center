@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
   "manifestVersion": "1.15",
   "version": "3.5.0",
-  "id": "bef61400-db9b-41d4-a617-403deb7bbe77",
+  "id": "1d416189-649e-4a3b-89cb-9cfdf972387b",
   "packageName": "com.microsoft.teams.extension",
   "developer": {
     "name": "FDOH Web Team",
