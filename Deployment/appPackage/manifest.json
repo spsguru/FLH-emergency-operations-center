@@ -55,6 +55,6 @@
   ],
   "webApplicationInfo": {
     "id": "7fbaa914-2048-478b-b421-aec10cbced6a",
-    "resource": "api://flheoc.azurewebsites.net/<<clientId>>"
+    "resource": "api://flheoc.azurewebsites.net/7fbaa914-2048-478b-b421-aec10cbced6a"
   }
 }
