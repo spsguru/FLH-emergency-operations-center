@@ -266,7 +266,7 @@ const localizedStrings = {
                 mapViewerPlaceholder: "Enter Azure Maps Subscription Key",
                 mapViewerKeyRequiredMessage: "Azure Maps Subscription Key is required",
                 defaultTasksFieldLabel: "Create Default Tasks",
-                defaultTasksInfoIconTooltipContent: "Default planner tasks will be created from the 'TEOC-Tasks' SharePoint list configured by the Admin based on the selected Incident Type",
+                defaultTasksInfoIconTooltipContent: "Default planner tasks will be created from the 'FLHEOC-Tasks' SharePoint list configured by the Admin based on the selected Incident Type",
                 ownerLimitMessage: "An Incident/Teams cannot have more than 100 owners. Please change the Role Assignment and try again.",
                 tasksAdminMenuLabel: "Tasks",
                 tasksAdminMenuTooltip: "Manage default planner tasks",
@@ -537,7 +537,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "مفتاح اشتراك خرائط Azure مطلوب",
                 ownerLimitMessage: "لا يمكن أن يحتوي الحدث/Teams على أكثر من 100 مالك. الرجاء تغيير \"تعيين الدور\" والمحاولة مرة أخرى.",
                 defaultTasksFieldLabel: "إنشاء مهام افتراضية",
-                defaultTasksInfoIconTooltipContent: "سيتم إنشاء مهام المخطط الافتراضية من قائمة SharePoint 'TEOC-Tasks' المكونة بواسطة مسؤول استنادا إلى نوع الحدث المحدد",
+                defaultTasksInfoIconTooltipContent: "سيتم إنشاء مهام المخطط الافتراضية من قائمة SharePoint 'FLHEOC-Tasks' المكونة بواسطة مسؤول استنادا إلى نوع الحدث المحدد",
                 tasksAdminMenuLabel: "المهام",
                 tasksAdminMenuTooltip: "إدارة مهام المخطط الافتراضية"
         },
@@ -807,7 +807,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "Azure Maps Subscription Key is required",
                 ownerLimitMessage: "Ein Incident/Teams kann nicht mehr als 100 Besitzer haben. Ändern Sie die Rollenzuweisung, und versuchen Sie es noch mal.",
                 defaultTasksFieldLabel: "Standardtasks erstellen",
-                defaultTasksInfoIconTooltipContent: "Standardplaneraufgaben werden aus der SharePoint-Liste \"TEOC-Tasks\" erstellt, die vom Admin basierend auf dem ausgewählten Incidenttyp konfiguriert wurde.",
+                defaultTasksInfoIconTooltipContent: "Standardplaneraufgaben werden aus der SharePoint-Liste \"FLHEOC-Tasks\" erstellt, die vom Admin basierend auf dem ausgewählten Incidenttyp konfiguriert wurde.",
                 tasksAdminMenuLabel: "Tasks",
                 tasksAdminMenuTooltip: "Standardplanertasks verwalten"
         },
@@ -1077,7 +1077,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "Se requiere la clave de suscripción de Azure Maps",
                 ownerLimitMessage: "Un incidente o Teams no puede tener más de 100 propietarios. Cambie la asignación de roles e inténtelo de nuevo.",
                 defaultTasksFieldLabel: "Crear tareas predeterminadas",
-                defaultTasksInfoIconTooltipContent: "Las tareas de Planner predeterminadas se crearán a partir de la lista de SharePoint \"TEOC-Tasks\" configurada por el Administración según el tipo de incidente seleccionado.",
+                defaultTasksInfoIconTooltipContent: "Las tareas de Planner predeterminadas se crearán a partir de la lista de SharePoint \"FLHEOC-Tasks\" configurada por el Administración según el tipo de incidente seleccionado.",
                 tasksAdminMenuLabel: "Tasks",
                 tasksAdminMenuTooltip: "Administrar tareas de planificador predeterminadas"        
         },
@@ -1347,7 +1347,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "Azure Maps Subscription Key is required",
                 ownerLimitMessage: "Un incident/Teams ne peut pas avoir plus de 100 propriétaires. Modifiez l’attribution de rôle et réessayez.",
                 defaultTasksFieldLabel: "Créer des tâches par défaut",
-                defaultTasksInfoIconTooltipContent: "Les tâches du Planificateur par défaut seront créées à partir de la liste SharePoint « TEOC-Tasks » configurée par le Administration en fonction du type d’incident sélectionné",
+                defaultTasksInfoIconTooltipContent: "Les tâches du Planificateur par défaut seront créées à partir de la liste SharePoint « FLHEOC-Tasks » configurée par le Administration en fonction du type d’incident sélectionné",
                 tasksAdminMenuLabel: "Tâches",
                 tasksAdminMenuTooltip: "Gérer les tâches du planificateur par défaut"        
         },
@@ -1617,7 +1617,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "נדרש מפתח מנוי של Azure Maps",
                 ownerLimitMessage: "מקרה/Teams לא יכולים לכלול יותר מ- 100 בעלים. שנה את הקצאת התפקידים ונסה שוב.",
                 defaultTasksFieldLabel: "צור משימות ברירת מחדל",
-                defaultTasksInfoIconTooltipContent: "משימות המוגדרות כברירת מחדל בלוח התכנון ייווצרו מתוך רשימת SharePoint ‏'TEOC-Tasks' שהוגדרה על-ידי מרכז הניהול בהתאם לסוג המקרה שנבחר",
+                defaultTasksInfoIconTooltipContent: "משימות המוגדרות כברירת מחדל בלוח התכנון ייווצרו מתוך רשימת SharePoint ‏'FLHEOC-Tasks' שהוגדרה על-ידי מרכז הניהול בהתאם לסוג המקרה שנבחר",
                 tasksAdminMenuLabel: "משימות",
                 tasksAdminMenuTooltip: "נהל משימות המוגדרות כברירת מחדל בלוח תכנון"
         },
@@ -1887,7 +1887,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "Azure Maps サブスクリプション キーが必要です",
                 ownerLimitMessage: "インシデントまたは Teams に 100 人を超える所有者を含めることはできません。ロールの割り当てを変更して、もう一度お試しください。",
                 defaultTasksFieldLabel: "既定のタスクを作成",
-                defaultTasksInfoIconTooltipContent: "既定の Planner タスクは、選択したインシデントの種類に基づいて管理によって構成された 'TEOC-Tasks' SharePoint リストから作成されます",
+                defaultTasksInfoIconTooltipContent: "既定の Planner タスクは、選択したインシデントの種類に基づいて管理によって構成された 'FLHEOC-Tasks' SharePoint リストから作成されます",
                 tasksAdminMenuLabel: "タスク",
                 tasksAdminMenuTooltip: "既定の Planner タスクを管理します"
         },
@@ -2157,7 +2157,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "Azure Maps 구독 키가 필요합니다.",
                 ownerLimitMessage: "인시던트/Teams에는 100명 이상의 소유자가 있을 수 없습니다. 역할 할당을 변경하고 다시 시도하세요.",
                 defaultTasksFieldLabel: "Create Default Tasks",
-                defaultTasksInfoIconTooltipContent: "기본 플래너 작업은 선택한 인시던트 유형을 기준으로 관리 구성된 'TEOC-Tasks' SharePoint 목록에서 만들어집니다.",
+                defaultTasksInfoIconTooltipContent: "기본 플래너 작업은 선택한 인시던트 유형을 기준으로 관리 구성된 'FLHEOC-Tasks' SharePoint 목록에서 만들어집니다.",
                 tasksAdminMenuLabel: "Tasks",
                 tasksAdminMenuTooltip: "Manage default planner tasks"
         },
@@ -2427,7 +2427,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "A chave de assinatura do Azure Mapas é necessária",
                 ownerLimitMessage: "Um Incidente/Teams não pode ter mais de 100 proprietários. Altere a Atribuição de Função e tente novamente.",
                 defaultTasksFieldLabel: "Create Default Tasks",
-                defaultTasksInfoIconTooltipContent: "As tarefas padrão do Planejador serão criadas a partir da lista do SharePoint 'TEOC-Tasks' configurada pelo Administração com base no Tipo de Incidente selecionado",
+                defaultTasksInfoIconTooltipContent: "As tarefas padrão do Planejador serão criadas a partir da lista do SharePoint 'FLHEOC-Tasks' configurada pelo Administração com base no Tipo de Incidente selecionado",
                 tasksAdminMenuLabel: "Tasks",
                 tasksAdminMenuTooltip: "Manage default planner tasks"
         },
@@ -2697,7 +2697,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "Требуется ключ подписки Azure Maps",
                 ownerLimitMessage: "Инцидент или Teams не может иметь более 100 владельцев. Измените назначение ролей и повторите попытку.",
                 defaultTasksFieldLabel: "Создать стандартные задачи",
-                defaultTasksInfoIconTooltipContent: "Стандартные задачи планировщика будут созданы из списка SharePoint \"TEOC-Tasks\", настроенного администратором на основе выбранного типа инцидента",
+                defaultTasksInfoIconTooltipContent: "Стандартные задачи планировщика будут созданы из списка SharePoint \"FLHEOC-Tasks\", настроенного администратором на основе выбранного типа инцидента",
                 tasksAdminMenuLabel: "Задачи",
                 tasksAdminMenuTooltip: "Управление стандартными задачами планировщика"
         },
@@ -2967,7 +2967,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "Azure Maps 订阅密钥是必需的",
                 ownerLimitMessage: "事件/Teams 的所有者不能超过 100 个。请更改角色分配，然后重试。",
                 defaultTasksFieldLabel: "创建默认任务",
-                defaultTasksInfoIconTooltipContent: "默认规划器任务将从“TEOC-Tasks”SharePoint 列表中创建，该列表由管理员根据所选事件类型配置",
+                defaultTasksInfoIconTooltipContent: "默认规划器任务将从“FLHEOC-Tasks”SharePoint 列表中创建，该列表由管理员根据所选事件类型配置",
                 tasksAdminMenuLabel: "任务",
                 tasksAdminMenuTooltip: "管理默认计划任务"
         },
@@ -3237,7 +3237,7 @@ const localizedStrings = {
                 mapViewerKeyRequiredMessage: "需要 Azure 地圖服務訂用帳戶金鑰",
                 ownerLimitMessage: "事件/Teams 不能有超過 100 個擁有者。請變更角色指派，然後再試一次。",
                 defaultTasksFieldLabel: "建立預設工作",
-                defaultTasksInfoIconTooltipContent: "默認規劃工作將從由 管理員 根據選取的事件類型所設定的 'TEOC-Tasks' SharePoint 清單建立",
+                defaultTasksInfoIconTooltipContent: "默認規劃工作將從由 管理員 根據選取的事件類型所設定的 'FLHEOC-Tasks' SharePoint 清單建立",
                 tasksAdminMenuLabel: "工作",
                 tasksAdminMenuTooltip: "管理預設規劃工具工作"
         }

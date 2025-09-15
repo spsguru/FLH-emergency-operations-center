@@ -621,7 +621,7 @@ export default class CommonService {
     public async createdefaultPlannerTasks(planId: string, bucketId: string, graph: Client, siteId: string, defaultTasksList: string, incTypeID: string) {
         try {
 
-            //Get the tasks from the "TEOC-Tasks" lists and filter it based on Incident Type
+            //Get the tasks from the "FLHEOC-Tasks" lists and filter it based on Incident Type
             const defaultTasksListEndpoint = `${graphConfig.spSiteGraphEndpoint}${siteId}${graphConfig.listsGraphEndpoint}/${defaultTasksList}/items?expand=fields(select=id,Title,IncidentTypeLookupId,IncidentType)&$Top=5000`;
             const defaultTasksListItems = await graph.api(defaultTasksListEndpoint).get();
             const defaultTasksListFiltered = defaultTasksListItems.value.filter((e: any) => e.fields.IncidentType === incTypeID);

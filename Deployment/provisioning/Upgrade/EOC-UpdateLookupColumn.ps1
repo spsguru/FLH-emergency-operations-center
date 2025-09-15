@@ -9,15 +9,15 @@ $ClientID = Read-Host "Enter AzureAppId/ClientId";
 $ClientID = $ClientID.Trim();
 
 #Parameters
-$ParentListName = "TEOC-IncidentStatus"
-$ChildListName = "TEOC-IncidentTransaction"
+$ParentListName = "FLHEOC-IncidentStatus"
+$ChildListName = "FLHEOC-IncidentTransaction"
 $LookupColumnName = "Status"
  
 try {
     #Connect to SharePoint Online site
     Connect-PnPOnline $SiteURL -Interactive -ClientId $ClientID
 
-    #Get all items from TEOC-IncidentStatus list
+    #Get all items from FLHEOC-IncidentStatus list
     $items = Get-PnPListItem -List $ParentListName
 
     $hash = $null
@@ -28,10 +28,10 @@ try {
         $hash.add($item.FieldValues.Title, $item.FieldValues.ID)
     }
 
-    #Get all items from TEOC-IncidentTransaction list
+    #Get all items from FLHEOC-IncidentTransaction list
     $listItems = Get-PnPListItem -List $ChildListName
  
-    #Update the lookup column for all items in TEOC-IncidentTransaction list
+    #Update the lookup column for all items in FLHEOC-IncidentTransaction list
     foreach ($listItem in $listItems) {
         try {
             $status = $listItem.FieldValues.IncidentStatus

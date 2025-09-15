@@ -1,18 +1,18 @@
 {
-    "incidentsList": "TEOC-IncidentTransaction",
-    "assessmentsList": "TEOC-Assessments",
-    "incStatusList": "TEOC-IncidentStatus",
-    "incTypeList": "TEOC-IncidentType",
-    "roleAssignmentList": "TEOC-RoleAssignments",
-    "configurationList": "TEOC-Config",
-    "roleDefaultList": "TEOC-RoleDefaultValues",
-    "incidentTypeDefaultRolesList": "TEOC-IncidentTypeDefaultRoles",
-    "userRolesList": "TEOC-UserRoles",
+    "incidentsList": "FLHEOC-IncidentTransaction",
+    "assessmentsList": "FLHEOC-Assessments",
+    "incStatusList": "FLHEOC-IncidentStatus",
+    "incTypeList": "FLHEOC-IncidentType",
+    "roleAssignmentList": "FLHEOC-RoleAssignments",
+    "configurationList": "FLHEOC-Config",
+    "roleDefaultList": "FLHEOC-RoleDefaultValues",
+    "incidentTypeDefaultRolesList": "FLHEOC-IncidentTypeDefaultRoles",
+    "userRolesList": "FLHEOC-UserRoles",
     "appTitle": "Florida Health Emergency Operations Center",
-    "defaulTasksList": "TEOC-Tasks",
+    "defaulTasksList": "FLHEOC-Tasks",
     "lists": [
         {
-            "listName": "TEOC-Assessments",
+            "listName": "FLHEOC-Assessments",
             "listURL": "TEOCAssessments",
             "columns": [
                 {

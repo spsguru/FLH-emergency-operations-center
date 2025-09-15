@@ -112,7 +112,7 @@ Admins can follow the steps below to enable "Map Viewer" for Incidents in the da
 
      ![TEOC Assest Section](./Images/AssetsSection.png)
 
-     * "Create Default Tasks" is available only in  Create Incident form. On selecting this option the default planner tasks will be created under "Tasks" section in "Active DashBoard". Admins can configure the default tasks in the "TEOC-Tasks" list in the Sharepoint site.
+     * "Create Default Tasks" is available only in  Create Incident form. On selecting this option the default planner tasks will be created under "Tasks" section in "Active DashBoard". Admins can configure the default tasks in the "FLHEOC-Tasks" list in the Sharepoint site.
 
      * "Add Guest Users" is available in both Create and Edit Incident form and user can add guest users while creating or editing an incident. User can add up to 10 guest users at a time by clicking on Add More button. Once the guest users are added, it will be available in the people picker selection for the next time when the incident is edited and user can select them for any roles except Secondary Incident Commander and Incident Commander.
 
@@ -200,7 +200,7 @@ If there are any changes to the Roles, _View_ link will be available on the Role
        
      1. Enable Role-Based access: An admin can enable the "Role based access" to control access for the "Manage" and "Create New Incident" options in the Dashboard.        
 
-        Upon enabling the roles and saving the setting, the current user details will be added with "Admin" role in the "TEOC-UserRoles" SharePoint list. Users can click on "Assign Roles" link to add additional users with "Admin" role and only the users available in the "TEOC-UserRoles" list will be able to "Manage" and "Create New Incident" thereafter. User can also disable the role-based access for the application at any time by turning off this toggle button.
+        Upon enabling the roles and saving the setting, the current user details will be added with "Admin" role in the "FLHEOC-UserRoles" SharePoint list. Users can click on "Assign Roles" link to add additional users with "Admin" role and only the users available in the "FLHEOC-UserRoles" list will be able to "Manage" and "Create New Incident" thereafter. User can also disable the role-based access for the application at any time by turning off this toggle button.
         
         ![TEOC Admin Settings](./Images/EnableRoles.png) 
 

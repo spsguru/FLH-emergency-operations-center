@@ -134,7 +134,7 @@ export default class ConfigSettings extends React.Component<IConfigSettingsProps
                             }
                         });
                     } else {
-                        //Update App Title in TEOC-config list
+                        //Update App Title in FLHEOC-config list
                         const graphConfigListEndpoint = `${graphConfig.spSiteGraphEndpoint}${this.props.siteId}/lists/${siteConfig.configurationList}/items/${this.props.appTitleData.itemId}/fields`;
                         const updateAppTitleObj = { Value: this.state.appTitle.trim() };
                         await this.commonService.updateItemInList(graphConfigListEndpoint,
@@ -180,7 +180,7 @@ export default class ConfigSettings extends React.Component<IConfigSettingsProps
                     }
                     //If EditAccessRole key is already in config list update the item
                     else {
-                        //Update Edit Access Role in TEOC-config list
+                        //Update Edit Access Role in FLHEOC-config list
                         const graphConfigListEndpoint = `${graphConfig.spSiteGraphEndpoint}${this.props.siteId}/lists/${siteConfig.configurationList}/items/${this.props.editIncidentAccessRoleData.itemId}/fields`;
                         const updateEditAccessRoleObj = { Value: this.state.selectedRole.trim() };
                         await this.commonService.updateItemInList(graphConfigListEndpoint,
@@ -206,7 +206,7 @@ export default class ConfigSettings extends React.Component<IConfigSettingsProps
                 noChanges = false;
                 this.setState({ showLoader: true });
 
-                //Update Role Settings in TEOC-config list
+                //Update Role Settings in FLHEOC-config list
                 const graphConfigListEndpoint = `${graphConfig.spSiteGraphEndpoint}${this.props.siteId}/lists/${siteConfig.configurationList}/items/${this.props.configRoleData.itemId}/fields`;
                 const updateEnableRolesObj = { Value: this.props.isRolesEnabled ? "False" : "True" };
                 await this.commonService.updateItemInList(graphConfigListEndpoint,
@@ -231,7 +231,7 @@ export default class ConfigSettings extends React.Component<IConfigSettingsProps
                 }
                 //Enabling Roles
                 else {
-                    //Update user role as admin if the user doesn't exist in TEOC-UserRoles List
+                    //Update user role as admin if the user doesn't exist in FLHEOC-UserRoles List
                     if (!this.props.isUserAdmin) {
                         const graphUserRolesListEndpoint = `${graphConfig.spSiteGraphEndpoint}${this.props.siteId}${graphConfig.listsGraphEndpoint}/${siteConfig.userRolesList}/items`;
                         const updateUserRolesObj = {
@@ -265,7 +265,7 @@ export default class ConfigSettings extends React.Component<IConfigSettingsProps
                 }
             }
 
-            //Add azure Map subscription Key record in TEOC-config list
+            //Add azure Map subscription Key record in FLHEOC-config list
             if (this.state.enableMapViewer && this.props.azureMapsKeyConfigData?.title === undefined &&
                 this.state.azureMapsKey?.trim() !== "") {
                 noChanges = false;
@@ -294,7 +294,7 @@ export default class ConfigSettings extends React.Component<IConfigSettingsProps
                     azureMapsKey: prevState.azureMapsKey?.trim()
                 }));
             }
-            //Update azure Map subscription Key in TEOC-config list
+            //Update azure Map subscription Key in FLHEOC-config list
             else if ((this.props.azureMapsKeyConfigData?.value &&
                 this.props.azureMapsKeyConfigData?.value?.trim() !== this.state.azureMapsKey?.trim()) ||
                 this.props.isMapViewerEnabled !== this.state.enableMapViewer) {
@@ -313,11 +313,11 @@ export default class ConfigSettings extends React.Component<IConfigSettingsProps
                 //Update azure Map subscription Key
                 else {
                     this.setState({ showLoader: true });
-                    //Endpoint to update azure Map API Key in TEOC-config list
+                    //Endpoint to update azure Map API Key in FLHEOC-config list
                     const graphConfigListEndpoint = `${graphConfig.spSiteGraphEndpoint}${this.props.siteId}/lists/${siteConfig.configurationList}/items/${this.props.azureMapsKeyConfigData?.itemId}/fields`;
                     const updatedValue = this.state.enableMapViewer ? this.state.azureMapsKey?.trim() : "";
                     let updatedazureAPIKeyObj = { Value: updatedValue }
-                    //Update azure Map subscription Key in TEOC-config list API Call
+                    //Update azure Map subscription Key in FLHEOC-config list API Call
                     await this.commonService.updateItemInList(graphConfigListEndpoint, this.props.graph, updatedazureAPIKeyObj);
 
                     let messageToDisplay: string;

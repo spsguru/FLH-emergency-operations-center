@@ -73,9 +73,9 @@ Below are the high level steps to get you started on a customizing the template.
 1.  Navigate to TEOC site in your tenant.
 1.  Navigate to Site Contents.
 1.  Below are master lists
-    * TEOC-IncidentStatus
-    * TEOC-IncidentType
-    * TEOC-RoleAssignments
+    * FLHEOC-IncidentStatus
+    * FLHEOC-IncidentType
+    * FLHEOC-RoleAssignments
 1.  Open Master List and click new to create new entry.
 
     ![NavigateToMaster](./Images/RoleAssignments.png)

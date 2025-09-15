@@ -524,7 +524,7 @@
    "_ownerLimitMessage.comment": "This string is displayed as error message",
    "defaultTasksFieldLabel": "Create Default Tasks",
    "_defaultTasksFieldLabel.comment": "This string is displayed as field label",
-   "defaultTasksInfoIconTooltipContent": "Default planner tasks will be created from the 'TEOC-Tasks' SharePoint list configured by the Admin based on the selected Incident Type",
+   "defaultTasksInfoIconTooltipContent": "Default planner tasks will be created from the 'FLHEOC-Tasks' SharePoint list configured by the Admin based on the selected Incident Type",
    "_defaultTasksInfoIconTooltipContent.comment": "This string is displayed as tool tip",
    "tasksAdminMenuLabel": "Tasks",
    "_tasksAdminMenuLabel.comment": "This string is displayed as field label",

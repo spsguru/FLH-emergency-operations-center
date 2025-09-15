@@ -4,7 +4,7 @@
 
   1. Navigate to the "Site Contents" page of the TEOC Sharepoint site.
 
-  1. Click on "Settings" for "TEOC-IncidentTransaction" list.
+  1. Click on "Settings" for "FLHEOC-IncidentTransaction" list.
 
   ![List Settings](./Images/Listsettings.png)
 
@@ -35,7 +35,7 @@
 
   ![Provisioning Scripts](./Images/LookupColumnScript.png)
 
-  This script will copy the value from the existing IncidentStatus column to a new Status column in the TEOC-IncidentTransaction List. Please wait for the script to complete as it will take sometime depending on the number of items on the list.
+  This script will copy the value from the existing IncidentStatus column to a new Status column in the FLHEOC-IncidentTransaction List. Please wait for the script to complete as it will take sometime depending on the number of items on the list.
 
 ### 4. Add new application setting in the App Service ( **This step is applicable only if you upgrade the app from 0.5 or 0.5.1 version** )
 

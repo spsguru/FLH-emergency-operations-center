@@ -411,14 +411,14 @@ export default class EOCHome extends React.Component<IEOCHomeProps, IEOCHomeStat
         }
     }
 
-    //Get data from TEOC-Config sharepoint list
+    //Get data from FLHEOC-Config sharepoint list
     private getConfigSettings = async () => {
         try {
             this.setState({
                 settingsLoader: true
             });
 
-            //graph endpoint to get data from TEOC-Config list
+            //graph endpoint to get data from FLHEOC-Config list
             let graphEndpoint = `${graphConfig.spSiteGraphEndpoint}${this.state.siteId}/lists/${siteConfig.configurationList}/items?$expand=fields&$Top=5000`;
             const configDataRecords = [constants.enableRoles, constants.azureMapsKey, constants.appTitleKey,  constants.editIncidentAccessRoleKey];
             const configData = await this.dataService.getConfigData(graphEndpoint, this.state.graph, configDataRecords);
