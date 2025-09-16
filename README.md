@@ -8,7 +8,7 @@ During this pause:
 > We understand the importance of these tools to your operations and encourage you to continue using the existing versions as they are.
 Thank you for your understanding, and we appreciate your continued support of these app templates. If there are any changes to this status in the future, we will be sure to communicate them promptly.
  
-# Microsoft Teams Emergency Operation Center
+# Microsoft Teams Emergency Operation Center 
 
 | [Documentation](https://github.com/spsguru/FLH-emergency-operations-center/wiki) | [Solution Overview](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Solution-Overview) | [Architecture](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Architecture) | [Deployment Guide](https://github.com/spsguru/FLH-emergency-operations-center/Wiki/DeploymentGuide.md) | 
 | ---- | ---- | ---- | ---- |
