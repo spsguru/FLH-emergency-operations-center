@@ -68,7 +68,7 @@ If you have previously registered PnP.PowerShell, check the App Registration in 
 ### Run the PnP Provisioning script
 To provision the SharePoint site and lists for the TEOC app, 
 
-* Clone the TEOC [repository](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center.git) locally.
+* Clone the TEOC [repository](https://github.com/spsguru/FLH-emergency-operations-center.git) locally.
 * Open the `Deployment/provisioning` folder to get the latest provisioning files i.e `EOC-ProvisionGCCH.ps1` and `EOC-SiteTemplate.xml`
 * Open a PowerShell console as an administrator (right-click, Run As Administrator). Run the below command to unblock the deployment script.
     >Note: File path should be set to provisioning folder. 
@@ -337,7 +337,7 @@ Now we build the teams package to upload the TEOC (Teams Emergency Operations Ce
 
 To create the team's package, 
 
-1. Make sure you have cloned the app [repository](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center.git) locally.
+1. Make sure you have cloned the app [repository](https://github.com/spsguru/FLH-emergency-operations-center.git) locally.
 
 1. Open the `Deployment\appPackage\manifest.json` file in a text editor.
     
@@ -406,7 +406,7 @@ To create the team's package,
 
 ## 10. Deploy “NotifyToTeams” Extension in SharePoint
 
-1. To get the latest package for extension, make sure you have cloned the app [repository](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center.git) locally.  
+1. To get the latest package for extension, make sure you have cloned the app [repository](https://github.com/spsguru/FLH-emergency-operations-center.git) locally.  
 
 1. Get the latest package file `“eoc-extension.sppkg”` under **EOC-Extensions/sharepoint/ solution** folder.  
 

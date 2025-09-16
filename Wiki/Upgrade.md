@@ -16,7 +16,7 @@
     
 ### 2. Run the upgrade PowerShell script ( **This step is applicable only if you upgrade the app from 1.0 or older ** )
   
-  1. Clone the [repository](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center.git) locally. Open the `Deployment/provisioning/Upgrade` folder to get the latest provisioning files i.e `Update-EOC-Provision.ps1` and `Update-EOC-SiteTemplate-From-V1.0.xml` ( If you are upgrading the app from 1.0 version ) or `Update-EOC-SiteTemplate-From-V0.5.xml` ( If you are upgrading the app from 0.5 or 0.5.1 version ) or `Update-EOC-SiteTemplate-From-V2.0-Later` (If you are upgrading the app from 2.0 or later versions)
+  1. Clone the [repository](https://github.com/spsguru/FLH-emergency-operations-center.git) locally. Open the `Deployment/provisioning/Upgrade` folder to get the latest provisioning files i.e `Update-EOC-Provision.ps1` and `Update-EOC-SiteTemplate-From-V1.0.xml` ( If you are upgrading the app from 1.0 version ) or `Update-EOC-SiteTemplate-From-V0.5.xml` ( If you are upgrading the app from 0.5 or 0.5.1 version ) or `Update-EOC-SiteTemplate-From-V2.0-Later` (If you are upgrading the app from 2.0 or later versions)
 
   2. Run the PowerShell script "Update-EOC-Provision.ps1"(commercial,GCC) or "Update-EOC-Provision-GCCH"(GCC-H) as an Administrator, script will ask for below inputs:
     
@@ -177,7 +177,7 @@ In this section, you’ll be adding the Office 365 Exchange Online API permissio
 
 ### 10. Update version
 
-1.  Refer [6.Create the Teams app packages](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center/wiki/Deployment-Guide#6-create-the-teams-app-packages) section of deployment guide to create a zip package for the latest version of the app.
+1.  Refer [6.Create the Teams app packages](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Deployment-Guide#6-create-the-teams-app-packages) section of deployment guide to create a zip package for the latest version of the app.
 
 2. Access Teams admin center and go to Teams apps > Manage apps. Select the name of the existing custom app to open its app details page.
 

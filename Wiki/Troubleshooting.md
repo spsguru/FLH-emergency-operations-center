@@ -134,5 +134,5 @@ Navigate to Environment variables or Configuration under settings which ever app
 
 ## Didn't find your problem here?
 
-Please report the issue [here](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center/issues/new)
+Please report the issue [here](https://github.com/spsguru/FLH-emergency-operations-center/issues/new)
 

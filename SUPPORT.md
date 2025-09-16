@@ -2,7 +2,7 @@
 
 ## How to file issues and get help  
 
-This project uses GitHub Issues to track bugs and technical requests. Please search the <a href="https://github.com/OfficeDev/microsoft-teams-emergency-operations-center/issues" title="exitsting issues">existing issues</a> before filing new issues to avoid duplicates.  For new issues, file your bug or 
+This project uses GitHub Issues to track bugs and technical requests. Please search the <a href="https://github.com/spsguru/FLH-emergency-operations-center/issues" title="exitsting issues">existing issues</a> before filing new issues to avoid duplicates.  For new issues, file your bug or 
 technical request as a new Issue.
 
 For help and questions about using this project, please visit our <a href="https://aka.ms/drivingadoption" title="Driving Adoption">Driving Adoption</a> forum.

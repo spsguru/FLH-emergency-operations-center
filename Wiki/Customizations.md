@@ -9,7 +9,7 @@ Please note that if you customize the solution according to your organization ne
 ## Prerequisites 
 
 1. Install Visual Studio Code
-1. Clone the app [repository](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center.git) locally.
+1. Clone the app [repository](https://github.com/spsguru/FLH-emergency-operations-center.git) locally.
 
 Below are the high level steps to get you started on a customizing the template.
 
