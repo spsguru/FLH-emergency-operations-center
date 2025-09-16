@@ -13,6 +13,8 @@ Thank you for your understanding, and we appreciate your continued support of th
 | [Documentation](https://github.com/spsguru/FLH-emergency-operations-center/wiki) | [Solution Overview](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Solution-Overview) | [Architecture](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Architecture) | [Deployment Guide](https://github.com/spsguru/FLH-emergency-operations-center/Wiki/DeploymentGuide.md) | 
 | ---- | ---- | ---- | ---- |
 
+https://github.com/spsguru/FLH-emergency-operations-center/blob/8415e544c247f89dee8f607cf439f0ee8aeb3414/Wiki/DeploymentGuide.md
+
 ## Introduction
 
 The Florida Health Emergency Operations Center (TEOC) solution template leverages the power of the Microsoft 365 platform to centralize incident response, information sharing and field communications using powerful services like Microsoft Lists, SharePoint and more. An open-source solution supported by Microsoft, it provides core functionality out of the box or can be extended to meet specific agency requirements.
