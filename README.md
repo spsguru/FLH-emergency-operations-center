@@ -10,7 +10,7 @@ Thank you for your understanding, and we appreciate your continued support of th
  
 # Microsoft Teams Emergency Operation Center
 
-| [Documentation](https://github.com/spsguru/FLH-emergency-operations-center/wiki) | [Solution Overview](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Solution-Overview) | [Architecture](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Architecture) | [Deployment Guide](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Deployment-Guide) | 
+| [Documentation](https://github.com/spsguru/FLH-emergency-operations-center/wiki) | [Solution Overview](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Solution-Overview) | [Architecture](https://github.com/spsguru/FLH-emergency-operations-center/wiki/Architecture) | [Deployment Guide](https://github.com/spsguru/FLH-emergency-operations-center/wiki/DeploymentGuide) | 
 | ---- | ---- | ---- | ---- |
 
 ## Introduction
