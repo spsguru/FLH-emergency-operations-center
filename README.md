@@ -1,4 +1,4 @@
-> [!IMPORTANT]
+> [!IMPORTANT] 
 > Dear Users,
 We want to inform you of an important update regarding the Teams Emergency Operations Center app template. As of 03/31/2025, we will be pausing direct support and feature development for these app templates.
 During this pause:
